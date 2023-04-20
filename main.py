@@ -50,6 +50,6 @@ for exercise in result["exercises"]:
         }
     }
 
-sheety_response = requests.post(sheety_endpoint, json=sheety_params, auth=(sheety_user, sheety_pass))
+sheety_response = requests.post(sheety_endpoint, json=sheety_params, auth=(sheety_user, sheety_pass)) 
 
 print(sheety_response.text)
